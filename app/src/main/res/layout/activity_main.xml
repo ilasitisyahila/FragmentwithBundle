@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ila"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biodata Diri"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_nama"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_alamat"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No HP"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_noHP"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pekerjaan"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_pekerjaan"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lama Kerja"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_Lama"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asal Sekolah"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_asal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kompetensi"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/edt_kompetensi"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INPUT"
+        android:textSize="13pt"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/btnInput"/>
+
+
+</LinearLayout>
